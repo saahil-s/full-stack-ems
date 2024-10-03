@@ -1,0 +1,135 @@
+
+-- Setting up a React App with dummy data:
+
+1. Create React Functional component called ListEmployeeComponent.jsx
+
+2. Prepare dummy data (list of Employees) to display in an HTML table
+
+3. Write JSX code to display list of Employees in HTML table
+
+4. Import and use ListEmployeeComponent in App component
+
+5. Run and Test React App
+
+
+-- Now we will use our REST APIs to populate our table with actual database values.
+
+1. Install axios library
+
+2. Create EmployeeService.js file
+
+3. Write REST client code to make a REST API call using the axios API
+
+4. Change ListEmployeeComponent to display response of the REST API
+
+5. Test the above changes
+
+
+-- Now we will create a header and footer component
+
+1. Create HeaderComponent (functional component)
+
+2. Import and Use HeaderComponent in App component
+
+3. Create FooterComponent (functional component)
+
+4. Import and Use FooterComponent in App component
+
+
+-- Now we are going to configure routing for the React app
+
+1. Install react-router-dom library using NPM
+
+2. Configure routing in App component
+
+3. Configure route for ListEmployeeComponent
+
+4. Test route for ListEmployeeComponent
+
+
+-- Now we are going to create an EmployeeComponent and add a button
+
+1. Create React functional component - EmployeeComponent
+
+2. Add "Add Employee" button in ListEmployeeComponent
+
+3. Configure route for EmployeeComponent
+
+4. Test the above changes
+
+
+-- Now we will add Employee form handling
+
+1. Define state variables (firstName, lastName, email) in EmployeeComponent using useState hook
+
+2. Design Add Employee Form using HTML and Bootstrap
+
+3. Create JavaScript function to handle onClick event (form submit)
+
+4. Test React app (print form data in browser console)
+
+
+-- Now we will connect the React app to the Add Employee REST API service
+
+1. In EmployeeService, write a code to call Add Employee REST API using axios
+
+2. Change EmployeeComponent to call EmployeeService method
+
+3. Navigate to List Employees page after form submission is done
+
+4. Test the above changes
+
+
+-- Now we will add Employee form validation in the React app
+
+1. Use the useState hook to initialize state variables that will hold validation errors
+
+2. Write a validation function that checks the form data and returns validation errors
+
+3. Validate form on submission
+
+4. Display validation errors
+
+5. Test the above changes
+
+
+-- Now we are going to add an update button, title, and route
+
+1. Add Update button to Employees List page
+
+2. Add Route for Update Employee in App component
+
+3. Change page title dynamically (EmployeeComponent supports both Add and Update)
+
+4. Test the above changes
+
+
+-- Now we are going to connect the React app to the Get Employee REST API
+
+1. In EmployeeService, write a code to call Get Employee REST API using axios
+
+2. Use useEffect hook to populate the employee data in the form for update
+
+3. Test the above changes
+
+
+-- Now we are going to connect the React app to the Update Employee REST API
+
+1. In EmployeeService, write a code to call Update Employee REST API using axios
+
+2. Change EmployeeComponent.saveorUpdateEmployee() method to perform both add and update employee operations
+
+3. Test the above changes
+
+
+-- Now we are going to implement the Delete Employee feature in the React app
+
+1. In EmployeeService, write a code to call Delete Employee REST API using axios
+
+2. Add Delete button to Employees List table
+
+3. Create JavaScript function to handle Delete Employees event
+
+4. Test the above changes
+
+
